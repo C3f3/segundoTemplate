@@ -97,3 +97,6 @@ p{
     left: 25px;
     z-index: 9000;
 }
+.portfolio-details a h2, .portfolio-details a p{
+    color: #ffffff;
+}
