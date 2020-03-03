@@ -3,17 +3,29 @@ body{
 }
 .navbar{
     background-color: #ffffff;
-    height: 150px;
-    min-height: 80px;
+    min-height: 50px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
 }
 .nav-link{
     color: #1a1a1a;
+    font-size: 18px;
 }
 .nav-link:hover{
     color: #1a1a1a;
 }
 .logo-brand{
-    min-width: 160px;
-    max-height: 180px;
+    min-width: 70px;
+    max-height: 100px;
+}
+.navbar-toggler{
+    font-size: 40px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+#hero{
+    background-image: url('cover.jpg');
+    background-size: cover;
+    min-height: 700px;
+    padding-top: 90px;
 }
