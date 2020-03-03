@@ -4,6 +4,9 @@ body{
 section{
     padding:120px 0;
 }
+.bg-light-grey{
+    background-color: #f5f5f5;
+}
 h1{
     font-size: 66px;
     font-weight: 600;
