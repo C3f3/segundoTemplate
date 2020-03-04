@@ -186,6 +186,48 @@ a:hover{
     list-style: square;
 }
 
+/*Testimonials*/
+.carousel{
+    min-height: 240px;
+    padding: 40x;
+    border-radius: 2px;
+    text-align: center;
+}
+.carousel p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+.carousel-indicators li{
+    background-color: #1a1a1a;
+    width: 15px;
+    border-radius: 2px;
+    margin:  0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    color: #ffffff;
+    opacity: 1;
+    width: 5%;
+}
+
+.control-button{
+    /*background-color: #1a1a1a;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #1a1a1a;
+    font-size: 20px;
+    border-radius:50px ;*/
+    color: #1a1a1a;
+    font-size: 50px;
+}
+.rating ion-icon{
+    color: #ffb944;
+    font-size: 26px;
+}
+
 
 
 
