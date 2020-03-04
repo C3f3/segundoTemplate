@@ -268,8 +268,11 @@ a:hover{
     .plans{
         min-width: unset;
     }
-    carousel-indicators{
-      display: none;
+    .carousel-item{
+      max-width: unset;
+    }
+    .carousel-indicators{
+      bottom: -50px;
     }
 }
 
