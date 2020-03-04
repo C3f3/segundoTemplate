@@ -71,7 +71,7 @@ a:hover{
 .navbar{
     background-color: #ffffff;
     min-height: 80px;
-    
+
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
 }
 .nav-link{
@@ -96,7 +96,7 @@ a:hover{
     background-size: cover;
     min-height: 700px;
     padding-top: 150px;/*modificado*/
-    color: #ffffff;   
+    color: #ffffff;
 }
 #hero p{
     color: #ffffff;
@@ -253,17 +253,23 @@ a:hover{
 
 
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
     .plans{
         min-width: unset;
         padding: 40px;
     }
+    .carousel-indicators{
+      display: none;
+    }
 }
 
 
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) {
     .plans{
         min-width: unset;
+    }
+    carousel-indicators{
+      display: none;
     }
 }
 
@@ -272,6 +278,12 @@ a:hover{
     .plans{
         min-width: unset;
         padding: 40px 20px;
+    }
+    .carousel-item{
+      max-width: unset;
+    }
+    .carousel-indicators{
+      bottom: -50px;
     }
   }
 
