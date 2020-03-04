@@ -119,3 +119,25 @@ a:hover{
 .portfolio-details a h2, .portfolio-details a p{
     color: #ffffff;
 }
+.member-container{
+    position: relative;
+    margin: 10px 0;
+}
+.member-details{
+    position: absolute;
+    color: #ffffff;
+    bottom: 0;
+    left: 20px;
+}
+.member-details h5{
+    margin-bottom: 0;
+    /*aumentar el grosor de la letra*/
+}
+.member-details span{
+    font-size: 14px;
+}
+.member-details ion-icon{
+    padding: 10px 15px 0px 15px;
+    color: #ffffff;
+    font-size: 24px;
+}
